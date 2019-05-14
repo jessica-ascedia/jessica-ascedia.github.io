@@ -53,7 +53,7 @@
                                                 <a class="dropdown-item" href="/patterns/dcp-22">DCP-22</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-25">DCP-25</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-27">DCP-27</a>
-                                                <a class="dropdown-item" href="/patterns/dcp-28">DCP-28</a>
+                                                <a class="dropdown-item" href="/patterns/dcp-28"><strong>DCP-28</strong></a>
                                                 <a class="dropdown-item" href="/patterns/dcp-60">DCP-60</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-72">DCP-72</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-73">DCP-73</a>
@@ -81,56 +81,44 @@
     </header>
 
 
-    <main>
-<section class="bg-light py-5">
-    <div class="container text-center">
-        
-        <h1>Design &amp; Code Reference Library</h1>
-        <p class="mw-50 mx-auto mb-0">This library in indtended to document reusable design patterns and page templates found on our website. It includes both visual and code examples. Please select a category below.</p>
+    <main>    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h1>DCP-28</h1>
+            <p class="mb-0">2 column photo with text and headline</p>
+        </div>
+    </section>
 
+    <hr class="mt-0 mb-5">
+
+        <div class="container">
+  <div class="row py-2 pt-md-4 pb-md-5">
+    <div class="col-12 col-md-6">
+      <img alt="Dane County" class="d-block mt-1 mb-4 w-100" src="../../assets/images/dummy-540.jpg">
     </div>
-</section>
-
-<hr class="mt-0 mb-5">
-
-<section class="container">
-    <div class="row justify-content-center align-items-stretch">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-pattern.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Design Patterns
-                        </h3>
-                        <p class="card-text">Reusable layout and content components found on the site.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/patterns" class="btn btn-dark">View Design Patterns Collection</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-template.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Page Templates
-                        </h3>
-                        <p class="card-text">Collections of patterns laid out to represent an entire page.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/templates" class="btn btn-dark">View Page Templates Collection</a>
-                    </div>
-                </div>
-            </div>
+    <div class="col-12 col-md-6">
+      <h1 class="text-center text-md-left">Resident
+      </h1>
+      <p>This page is devoted to keeping you informed as a resident of Dane County, and to provide you with helpful resources you may nbeed as someone who lives in the area.
+      </p>
     </div>
-</section>
+  </div>
+</div>
+
+<pre><code class="language-markup">&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;row py-2 pt-md-4 pb-md-5&quot;&gt;
+    &lt;div class=&quot;col-12 col-md-6&quot;&gt;
+      &lt;img alt=&quot;Dane County&quot; class=&quot;d-block mt-1 mb-4 w-100&quot; src=&quot;#&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-12 col-md-6&quot;&gt;
+      &lt;h1 class=&quot;text-center text-md-left&quot;&gt;Resident
+      &lt;/h1&gt;
+      &lt;p&gt;This page is devoted to keeping you informed as a resident of Dane County, and to provide you with helpful resources you may nbeed as someone who lives in the area.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
 
         </main>
 

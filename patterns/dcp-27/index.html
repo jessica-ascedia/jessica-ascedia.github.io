@@ -52,7 +52,7 @@
                                                 <a class="dropdown-item" href="/patterns/dcp-20">DCP-20</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-22">DCP-22</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-25">DCP-25</a>
-                                                <a class="dropdown-item" href="/patterns/dcp-27">DCP-27</a>
+                                                <a class="dropdown-item" href="/patterns/dcp-27"><strong>DCP-27</strong></a>
                                                 <a class="dropdown-item" href="/patterns/dcp-28">DCP-28</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-60">DCP-60</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-72">DCP-72</a>
@@ -81,56 +81,60 @@
     </header>
 
 
-    <main>
-<section class="bg-light py-5">
-    <div class="container text-center">
-        
-        <h1>Design &amp; Code Reference Library</h1>
-        <p class="mw-50 mx-auto mb-0">This library in indtended to document reusable design patterns and page templates found on our website. It includes both visual and code examples. Please select a category below.</p>
+    <main>    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h1>DCP-27</h1>
+            <p class="mb-0">Content block with photo and headline and CTA</p>
+        </div>
+    </section>
 
+    <hr class="mt-0 mb-5">
+
+        <div class="container my-2 my-md-5">
+  <h1 class="h2 text-center">Meet County Executive Joe Parisi
+  </h1>
+  <div class="row mt-3">
+    <div class="col-12 col-lg-6 separator separator--no-mobile">
+      <div class="mx-auto shadow-sm float-lg-left text-center mr-lg-4 mb-2 w-200"><img alt="Joe Parisi" class="w-100" src="https://placeimg.com/200/200/any" />
+        <p class="px-1"><span class="h5 d-block mb-1 mt-2">Dane County Executive</span> Joe Parisi
+        </p>
+      </div>
+      <p>Joe Parisi has called Dane County home his entire life. Joe sought out public service as a way to give back to a community that has given so much to him. Joe was first elected as County Executive, the chief elected leader of Dane County, in 2011
+      </p>
+      <p class="text-center"><a class="btn btn-secondary" href="#">Sign up for Joe&#39;s eNewsletter!</a>
+      </p>
     </div>
-</section>
-
-<hr class="mt-0 mb-5">
-
-<section class="container">
-    <div class="row justify-content-center align-items-stretch">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-pattern.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Design Patterns
-                        </h3>
-                        <p class="card-text">Reusable layout and content components found on the site.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/patterns" class="btn btn-dark">View Design Patterns Collection</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-template.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Page Templates
-                        </h3>
-                        <p class="card-text">Collections of patterns laid out to represent an entire page.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/templates" class="btn btn-dark">View Page Templates Collection</a>
-                    </div>
-                </div>
-            </div>
+    <div class="col-12 col-lg-6 separator separator--no-mobile">
+      <p>Joe&rsquo;s priority is to ensure that everyone in our community has access to the opportunity to succeed. He believes investing in people pays big dividends. Joe knows this can work because he experienced it. As a teenager, Joe dropped out of high school. He was encouraged to return to education through a community program by people who believed in him. So he worked to earn his GED and went on to MATC (now Madison College) and graduated from UW-Madison with a degree in sociology. Now Joe believes it is his turn to give back to ensure that our children&rsquo;s generation has access to the same opportunities that were available to him.
+      </p>
     </div>
-</section>
+  </div>
+</div>
+
+
+<pre><code class="language-markup">&lt;div class=&quot;container my-2 my-md-5&quot;&gt;
+  &lt;h1 class=&quot;h2 text-center&quot;&gt;Meet County Executive Joe Parisi
+  &lt;/h1&gt;
+  &lt;div class=&quot;row mt-3&quot;&gt;
+    &lt;div class=&quot;col-12 col-lg-6 separator separator--no-mobile&quot;&gt;
+      &lt;div class=&quot;mx-auto shadow-sm float-lg-left text-center mr-lg-4 mb-2 w-200&quot;&gt;&lt;img alt=&quot;Joe Parisi&quot; class=&quot;w-100&quot; src=&quot;https://placeimg.com/200/200/any&quot; /&gt;
+        &lt;p class=&quot;px-1&quot;&gt;&lt;span class=&quot;h5 d-block mb-1 mt-2&quot;&gt;Dane County Executive&lt;/span&gt; Joe Parisi
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;p&gt;Joe Parisi has called Dane County home his entire life. Joe sought out public service as a way to give back to a community that has given so much to him. Joe was first elected as County Executive, the chief elected leader of Dane County, in 2011
+      &lt;/p&gt;
+      &lt;p class=&quot;text-center&quot;&gt;&lt;a class=&quot;btn btn-secondary&quot; href=&quot;#&quot;&gt;Sign up for Joe&amp;#39;s eNewsletter!&lt;/a&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-12 col-lg-6 separator separator--no-mobile&quot;&gt;
+      &lt;p&gt;Joe&amp;rsquo;s priority is to ensure that everyone in our community has access to the opportunity to succeed. He believes investing in people pays big dividends. Joe knows this can work because he experienced it. As a teenager, Joe dropped out of high school. He was encouraged to return to education through a community program by people who believed in him. So he worked to earn his GED and went on to MATC (now Madison College) and graduated from UW-Madison with a degree in sociology. Now Joe believes it is his turn to give back to ensure that our children&amp;rsquo;s generation has access to the same opportunities that were available to him.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
 
         </main>
 

@@ -51,7 +51,7 @@
                                                 <a class="dropdown-item" href="/patterns/dcp-170">DCP-170</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-20">DCP-20</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-22">DCP-22</a>
-                                                <a class="dropdown-item" href="/patterns/dcp-25">DCP-25</a>
+                                                <a class="dropdown-item" href="/patterns/dcp-25"><strong>DCP-25</strong></a>
                                                 <a class="dropdown-item" href="/patterns/dcp-27">DCP-27</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-28">DCP-28</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-60">DCP-60</a>
@@ -81,56 +81,50 @@
     </header>
 
 
-    <main>
-<section class="bg-light py-5">
-    <div class="container text-center">
-        
-        <h1>Design &amp; Code Reference Library</h1>
-        <p class="mw-50 mx-auto mb-0">This library in indtended to document reusable design patterns and page templates found on our website. It includes both visual and code examples. Please select a category below.</p>
+    <main>    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h1>DCP-25</h1>
+            <p class="mb-0">2 column card pattern with an image, copy and CTA</p>
+        </div>
+    </section>
 
+    <hr class="mt-0 mb-5">
+
+        <div class="container my-2 my-md-5">
+  <div class="shadow-sm rounded p-4">
+    <div class="row">
+      <div class="col-12 col-md-4 flex-grow-0 text-center"><img alt="" src="../../assets/images/dummy-300.jpg" class="mw-100" />
+        <h2 class="h5 mt-2 font-weight-bold">Dane County Executive
+        </h2>
+        Joe Parisi
+      </div>
+      <div class="col-12 col-md-8 px-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit metus ac dictum dapibus. Praesent quis felis purus. Sed scelerisque eu nisi sit amet pretium. Fusce malesuada enim et congue blandit. Quisque eget commodo urna, id iaculis elit. Donec pellentesque lacinia ex id iaculis. Cras vitae venenatis lorem. Vestibulum aliquam urna ex, non mollis ipsum feugiat quis. Donec velit ex, euismod eu eleifend quis, aliquam ut leo. Morbi non ornare orci. Nulla eget malesuada eros. Donec luctus eu ligula feugiat commodo. Integer dignissim mollis lacus, sed faucibus ex faucibus nec.
+        </p>
+        <a class="d-block btn btn-secondary" href="#">Joe Parisi Bio</a> <a class="mt-2 d-block btn btn-outline-primary" href="#">County Executive Office</a>
+      </div>
     </div>
-</section>
+  </div>
+</div>
 
-<hr class="mt-0 mb-5">
+<pre><code class="language-markup">&lt;div class=&quot;container my-2 my-md-5&quot;&gt;
+  &lt;div class=&quot;shadow-sm rounded p-4&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-12 col-md-4 flex-grow-0 text-center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;#&quot; class=&quot;mw-100&quot; /&gt;
+        &lt;h2 class=&quot;h5 mt-2 font-weight-bold&quot;&gt;Dane County Executive
+        &lt;/h2&gt;
+        Joe Parisi
+      &lt;/div&gt;
+      &lt;div class=&quot;col-12 col-md-8 px-md-4&quot;&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit metus ac dictum dapibus. Praesent quis felis purus. Sed scelerisque eu nisi sit amet pretium. Fusce malesuada enim et congue blandit. Quisque eget commodo urna, id iaculis elit. Donec pellentesque lacinia ex id iaculis. Cras vitae venenatis lorem. Vestibulum aliquam urna ex, non mollis ipsum feugiat quis. Donec velit ex, euismod eu eleifend quis, aliquam ut leo. Morbi non ornare orci. Nulla eget malesuada eros. Donec luctus eu ligula feugiat commodo. Integer dignissim mollis lacus, sed faucibus ex faucibus nec.
+        &lt;/p&gt;
+        &lt;a class=&quot;d-block btn btn-secondary&quot; href=&quot;#&quot;&gt;Joe Parisi Bio&lt;/a&gt; &lt;a class=&quot;mt-2 d-block btn btn-outline-primary&quot; href=&quot;#&quot;&gt;County Executive Office&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
 
-<section class="container">
-    <div class="row justify-content-center align-items-stretch">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-pattern.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Design Patterns
-                        </h3>
-                        <p class="card-text">Reusable layout and content components found on the site.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/patterns" class="btn btn-dark">View Design Patterns Collection</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-template.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Page Templates
-                        </h3>
-                        <p class="card-text">Collections of patterns laid out to represent an entire page.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/templates" class="btn btn-dark">View Page Templates Collection</a>
-                    </div>
-                </div>
-            </div>
-    </div>
-</section>
 
         </main>
 

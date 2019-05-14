@@ -47,7 +47,7 @@
                                                 <a class="dropdown-item" href="/patterns/dcp-164">DCP-164</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-164-alternate">DCP-164 Alternate</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-167">DCP-167</a>
-                                                <a class="dropdown-item" href="/patterns/dcp-169">DCP-169</a>
+                                                <a class="dropdown-item" href="/patterns/dcp-169"><strong>DCP-169</strong></a>
                                                 <a class="dropdown-item" href="/patterns/dcp-170">DCP-170</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-20">DCP-20</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-22">DCP-22</a>
@@ -81,56 +81,98 @@
     </header>
 
 
-    <main>
-<section class="bg-light py-5">
-    <div class="container text-center">
-        
-        <h1>Design &amp; Code Reference Library</h1>
-        <p class="mw-50 mx-auto mb-0">This library in indtended to document reusable design patterns and page templates found on our website. It includes both visual and code examples. Please select a category below.</p>
+    <main>    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h1>DCP-169</h1>
+            <p class="mb-0">Image left copy right section</p>
+        </div>
+    </section>
 
+    <hr class="mt-0 mb-5">
+
+        <div class="bg-neutral">
+  <div class="container py-2 py-md-5">
+    <div class="row bg-white">
+      <div class="col-12 col-md-6 p-0">
+        <img alt="" class="mw-100 w-100" src="../../assets/images/dummy-540.jpg" />
+      </div>
+      <div class="col-12 col-md-6 p-4">
+        <h2 class="h5">What would you like to do?
+        </h2>
+        <ul class="list-unstyled">
+          <li>
+            <p class="mb-0"><a href="#">Find my local landfill</a>
+            </p>
+          </li>
+          <li>
+            <p class="mb-0"><a href="#">Bid on a project</a>
+            </p>
+          </li>
+          <li>
+            <p class="mb-0"><a href="#">Keep track of county highway closures</a>
+            </p>
+          </li>
+          <li>
+            <p class="mb-0"><a href="#">Learn about current projects</a>
+            </p>
+          </li>
+          <li>
+            <p class="mb-0"><a href="#">Find my local recycling center</a>
+            </p>
+          </li>
+          <li>
+            <p class="mb-0"><a href="#">Become a Best Value Contractor</a>
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
-</section>
+  </div>
+</div>
 
-<hr class="mt-0 mb-5">
 
-<section class="container">
-    <div class="row justify-content-center align-items-stretch">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-pattern.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Design Patterns
-                        </h3>
-                        <p class="card-text">Reusable layout and content components found on the site.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/patterns" class="btn btn-dark">View Design Patterns Collection</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-template.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Page Templates
-                        </h3>
-                        <p class="card-text">Collections of patterns laid out to represent an entire page.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/templates" class="btn btn-dark">View Page Templates Collection</a>
-                    </div>
-                </div>
-            </div>
-    </div>
-</section>
+<pre><code class="language-markup">&lt;div class=&quot;bg-neutral&quot;&gt;
+  &lt;div class=&quot;container py-2 py-md-5&quot;&gt;
+    &lt;div class=&quot;row bg-white&quot;&gt;
+      &lt;div class=&quot;col-12 col-md-6 p-0&quot;&gt;
+        &lt;img alt=&quot;&quot; class=&quot;mw-100 w-100&quot; src=&quot;#&quot; /&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-12 col-md-6 p-4&quot;&gt;
+        &lt;h2 class=&quot;h5&quot;&gt;What would you like to do?
+        &lt;/h2&gt;
+        &lt;ul class=&quot;list-unstyled&quot;&gt;
+          &lt;li&gt;
+            &lt;p class=&quot;mb-0&quot;&gt;&lt;a href=&quot;#&quot;&gt;Find my local landfill&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p class=&quot;mb-0&quot;&gt;&lt;a href=&quot;#&quot;&gt;Bid on a project&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p class=&quot;mb-0&quot;&gt;&lt;a href=&quot;#&quot;&gt;Keep track of county highway closures&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p class=&quot;mb-0&quot;&gt;&lt;a href=&quot;#&quot;&gt;Learn about current projects&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p class=&quot;mb-0&quot;&gt;&lt;a href=&quot;#&quot;&gt;Find my local recycling center&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p class=&quot;mb-0&quot;&gt;&lt;a href=&quot;#&quot;&gt;Become a Best Value Contractor&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
 
         </main>
 

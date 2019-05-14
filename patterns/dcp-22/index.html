@@ -50,7 +50,7 @@
                                                 <a class="dropdown-item" href="/patterns/dcp-169">DCP-169</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-170">DCP-170</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-20">DCP-20</a>
-                                                <a class="dropdown-item" href="/patterns/dcp-22">DCP-22</a>
+                                                <a class="dropdown-item" href="/patterns/dcp-22"><strong>DCP-22</strong></a>
                                                 <a class="dropdown-item" href="/patterns/dcp-25">DCP-25</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-27">DCP-27</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-28">DCP-28</a>
@@ -81,56 +81,130 @@
     </header>
 
 
-    <main>
-<section class="bg-light py-5">
-    <div class="container text-center">
-        
-        <h1>Design &amp; Code Reference Library</h1>
-        <p class="mw-50 mx-auto mb-0">This library in indtended to document reusable design patterns and page templates found on our website. It includes both visual and code examples. Please select a category below.</p>
+    <main>    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h1>DCP-22</h1>
+            <p class="mb-0">3-up cards with pictures and links</p>
+        </div>
+    </section>
 
+    <hr class="mt-0 mb-5">
+
+        <div class="bg-neutral">
+  <div class="container px-lg-5">
+    <div class="row align-items-stretch py-3">
+      <div class="col-12 col-lg my-4 d-flex justify-content-center">
+        <div class="card w-300px shadow-sm">
+        <img alt="" src="../../assets/images/dummy-300.jpg" class="w-300px" />
+          <div class="card-body">
+            <h2 class="h5 font-weight-bold">Board of Supervisors
+            </h2>
+            <ul class="list-unstyled font-weight-bold">
+              <li class="mt-2"><a href="https://dane.legistar.com/Calendar.aspx">Meeting Dates</a></li>
+              <li class="mt-2"><a href="#">Budget Information</a></li>
+              <li class="mt-2"><a href="https://myvote.wi.gov/">Find your County Boards Supervisor</a></li>
+              <li class="mt-2"><a href="#">Press Releases</a></li>
+              <li class="mt-2"><a href="https://board.countyofdane.com/Districts">Supervisory District Maps</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg my-4 d-flex justify-content-center">
+        <div class="card w-300px shadow-sm">
+        <img alt="" src="../../assets/images/dummy-300.jpg" class="w-300px" />
+          <div class="card-body">
+            <h2 class="h5 font-weight-bold">Elected Officials
+            </h2>
+            <ul class="list-unstyled font-weight-bold">
+              <li class="mt-2"><a href="https://courts.countyofdane.com/">Clerk of Courts</a></li>
+              <li class="mt-2"><a href="https://clerk.countyofdane.com/">County Clerk</a></li>
+              <li class="mt-2"><a href="https://countyofdane.com/da/">District Attorney</a></li>
+              <li class="mt-2"><a href="https://rod.countyofdane.com/">Register of Deeds</a></li>
+              <li class="mt-2"><a href="http://www.danesheriff.com/">Sheriff</a></li>
+              <li class="mt-2"><a href="https://treasurer.countyofdane.com/">Treasurer</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg my-4 d-flex justify-content-center">
+        <div class="card w-300px shadow-sm">
+        <img alt="" src="../../assets/images/dummy-300.jpg" class="w-300px" />
+          <div class="card-body">
+            <h2 class="h5 font-weight-bold">Popular Links
+            </h2>
+            <ul class="list-unstyled font-weight-bold">
+              <li class="mt-2"><a href="http://www.danearts.com/community/poster">Arts Poster</a></li>
+              <li class="mt-2"><a href="https://www.danecountyparks.com">Parks</a></li>
+              <li class="mt-2"><a href="https://clerk.countyofdane.com/marriage_and_domestic_partnership.aspx">Marriage Licenses</a></li>
+              <li class="mt-2"><a href="https://accessdane.countyofdane.com/">Access Dane</a></li>
+              <li class="mt-2"><a href="#">Records Request</a></li>
+              <li class="mt-2"><a href="https://treasurer.countyofdane.com/property_tax_overview.aspx">Property Taxes</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </div>
+</div>
 
-<hr class="mt-0 mb-5">
+<pre><code class="language-markup">&lt;div class=&quot;bg-neutral&quot;&gt;
+  &lt;div class=&quot;container px-lg-5&quot;&gt;
+    &lt;div class=&quot;row align-items-stretch py-3&quot;&gt;
+      &lt;div class=&quot;col-12 col-lg my-4 d-flex justify-content-center&quot;&gt;
+        &lt;div class=&quot;card w-300px shadow-sm&quot;&gt;
+        &lt;img alt=&quot;&quot; src=&quot;#&quot; class=&quot;w-300px&quot; /&gt;
+          &lt;div class=&quot;card-body&quot;&gt;
+            &lt;h2 class=&quot;h5 font-weight-bold&quot;&gt;Board of Supervisors
+            &lt;/h2&gt;
+            &lt;ul class=&quot;list-unstyled font-weight-bold&quot;&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://dane.legistar.com/Calendar.aspx&quot;&gt;Meeting Dates&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;Budget Information&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://myvote.wi.gov/&quot;&gt;Find your County Boards Supervisor&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;Press Releases&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://board.countyofdane.com/Districts&quot;&gt;Supervisory District Maps&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-12 col-lg my-4 d-flex justify-content-center&quot;&gt;
+        &lt;div class=&quot;card w-300px shadow-sm&quot;&gt;
+        &lt;img alt=&quot;&quot; class=&quot;w-300px&quot; src=&quot;#&quot; /&gt;
+          &lt;div class=&quot;card-body&quot;&gt;
+            &lt;h2 class=&quot;h5 font-weight-bold&quot;&gt;Elected Officials
+            &lt;/h2&gt;
+            &lt;ul class=&quot;list-unstyled font-weight-bold&quot;&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://courts.countyofdane.com/&quot;&gt;Clerk of Courts&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://clerk.countyofdane.com/&quot;&gt;County Clerk&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://countyofdane.com/da/&quot;&gt;District Attorney&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://rod.countyofdane.com/&quot;&gt;Register of Deeds&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;http://www.danesheriff.com/&quot;&gt;Sheriff&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://treasurer.countyofdane.com/&quot;&gt;Treasurer&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-12 col-lg my-4 d-flex justify-content-center&quot;&gt;
+        &lt;div class=&quot;card w-300px shadow-sm&quot;&gt;
+        &lt;img alt=&quot;&quot; class=&quot;w-300px&quot; src=&quot;#&quot; /&gt;
+          &lt;div class=&quot;card-body&quot;&gt;
+            &lt;h2 class=&quot;h5 font-weight-bold&quot;&gt;Popular Links
+            &lt;/h2&gt;
+            &lt;ul class=&quot;list-unstyled font-weight-bold&quot;&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;http://www.danearts.com/community/poster&quot;&gt;Arts Poster&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://www.danecountyparks.com&quot;&gt;Parks&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://clerk.countyofdane.com/marriage_and_domestic_partnership.aspx&quot;&gt;Marriage Licenses&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://accessdane.countyofdane.com/&quot;&gt;Access Dane&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;#&quot;&gt;Records Request&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;mt-2&quot;&gt;&lt;a href=&quot;https://treasurer.countyofdane.com/property_tax_overview.aspx&quot;&gt;Property Taxes&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
 
-<section class="container">
-    <div class="row justify-content-center align-items-stretch">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-pattern.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Design Patterns
-                        </h3>
-                        <p class="card-text">Reusable layout and content components found on the site.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/patterns" class="btn btn-dark">View Design Patterns Collection</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="card text-center h-100">
-                        <div class="my-3">
-                            <img src="/assets/images/listing-icons/icon-template.svg" alt="">
-                        </div>
-                    <div class="card-body">
-                        <h3>
-                                Page Templates
-                        </h3>
-                        <p class="card-text">Collections of patterns laid out to represent an entire page.</p>
-                        
-                    </div>
-                    <div class="card-footer">
-                            <a href="/templates" class="btn btn-dark">View Page Templates Collection</a>
-                    </div>
-                </div>
-            </div>
-    </div>
-</section>
 
         </main>
 

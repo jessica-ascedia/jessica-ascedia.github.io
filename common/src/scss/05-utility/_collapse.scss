@@ -1,9 +1,0 @@
-.collapse {
-    &.expand-868 {
-        @include media-breakpoint-up(868) {
-            display: block;
-            height: auto !important;
-            visibility: visible;
-        }
-    }
-}
