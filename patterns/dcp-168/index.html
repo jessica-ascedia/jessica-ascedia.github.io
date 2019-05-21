@@ -47,8 +47,10 @@
                                                 <a class="dropdown-item" href="/patterns/dcp-164">DCP-164</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-164-alternate">DCP-164 Alternate</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-167">DCP-167</a>
+                                                <a class="dropdown-item" href="/patterns/dcp-168"><strong>DCP-168</strong></a>
                                                 <a class="dropdown-item" href="/patterns/dcp-169">DCP-169</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-170">DCP-170</a>
+                                                <a class="dropdown-item" href="/patterns/dcp-18">DCP-18</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-20">DCP-20</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-22">DCP-22</a>
                                                 <a class="dropdown-item" href="/patterns/dcp-25">DCP-25</a>
@@ -61,18 +63,6 @@
                                 </li>
 
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Page Templates
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a href="/templates" class="small dropdown-item">View Collection</a>
-                                        <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="/templates/template-01">Template 01</a>
-                                    </div>
-                                </li>
-
-
                     </ul>
                 </div>
             </nav>
@@ -81,37 +71,82 @@
     </header>
 
 
-    <main>
-    <section class="bg-light py-5">
+    <main>    <section class="bg-light py-5">
         <div class="container text-center">
-                <img class="mb-4" src="/assets/images/listing-icons/icon-template.svg" alt="Page Templates">
-
-            <h1>Page Templates</h1>
-            <p class="mb-0 w-75 mx-auto">Collections of patterns laid out to represent an entire page.</p>
-
+            <h1>DCP-168</h1>
+            <p class="mb-0">Two column content section with images and CTA</p>
         </div>
     </section>
 
     <hr class="mt-0 mb-5">
 
-    <section class="container">
-        <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="card h-100 text-center">
-                            <div class="card-body">
-                                <h3>Template 01</h3>
-                                <img src="../../assets/images/patterns/" class="mw-100" />
-                                <p>
-                                    It&#x27;s the first template!
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="/templates/template-01" class="btn btn-primary">View Template 01</a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container my-2 my-md-5">
+  <div class="row">
+    <div class="col-12 col-lg-6 separator d-lg-flex flex-column justify-content-between">
+      <div class="row">
+        <div class="col-12 col-md-6"><img alt="Public Works" class="w-200px mx-auto mb-2" src="../../assets/images/dummy-200.jpg" />
         </div>
-    </section>
+        <div class="col-12 col-md-6">
+          <h2 class="h4">Public Works
+          </h2>
+          <p>Public works is divided into three divisions: Engineering, Lakes and Solid Waste / Recycling.
+          </p>
+        </div>
+      </div>
+      <div class="text-center mt-3 mb-3 mb-lg-0"><a class="btn btn-secondary" href="#">Learn More about Public Works</a>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 separator d-lg-flex flex-column justify-content-between">
+      <div class="row">
+        <div class="col-12 col-md-6"><img alt="Public Works" class="w-200px mx-auto mb-2" src="../../assets/images/dummy-200.jpg" />
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="h4">Highway &amp; Transportation
+          </h2>
+          <p>Highway and Transportation is separated into three divisions: Highway Engineering, Highway Maintenance and Highway Administration.
+          </p>
+        </div>
+      </div>
+      <div class="text-center mt-3 mb-3 mb-lg-0"><a class="btn btn-secondary" href="#">Learn More about Highway &amp; Transportation</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="language-markup">&lt;div class=&quot;container my-2 my-md-5&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-12 col-lg-6 separator d-lg-flex flex-column justify-content-between&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12 col-md-6&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;w-200px mx-auto mb-2&quot; src=&quot;#&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-6&quot;&gt;
+          &lt;h2 class=&quot;h4&quot;&gt;Public Works
+          &lt;/h2&gt;
+          &lt;p&gt;Public works is divided into three divisions: Engineering, Lakes and Solid Waste / Recycling.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;text-center mt-3 mb-3 mb-lg-0&quot;&gt;&lt;a class=&quot;btn btn-secondary&quot; href=&quot;#&quot;&gt;Learn More about Public Works&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-12 col-lg-6 separator d-lg-flex flex-column justify-content-between&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12 col-md-6&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;w-200px mx-auto mb-2&quot; src=&quot;#&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-12 col-md-6&quot;&gt;
+          &lt;h2 class=&quot;h4&quot;&gt;Highway &amp;amp; Transportation
+          &lt;/h2&gt;
+          &lt;p&gt;Highway and Transportation is separated into three divisions: Highway Engineering, Highway Maintenance and Highway Administration.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;text-center mt-3 mb-3 mb-lg-0&quot;&gt;&lt;a class=&quot;btn btn-secondary&quot; href=&quot;#&quot;&gt;Learn More about Highway &amp;amp; Transportation&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
 
         </main>
 
