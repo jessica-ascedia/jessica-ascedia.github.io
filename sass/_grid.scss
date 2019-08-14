@@ -1,0 +1,16 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.cookie-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+    @media screen and (min-width: 760px) {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+} 
