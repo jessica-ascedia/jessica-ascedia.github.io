@@ -1,11 +1,13 @@
 "use strict";
 
-const myCache = 'my-cool-pwa-v1';
+const myCache = 'my-cool-pwa-v2';
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(myCache).then(function(cache) {
       return cache.addAll([
         '/index.html',
+        '/recipes/chocolate-chip.html',
+        '/recipes/shortbread.html',
         '/styles.css'
       ]);
     })
